@@ -1,0 +1,29 @@
+/* responsive */
+
+@media (width <= 576px) {
+    .facilityBody {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (width >= 577px) and (width <= 768px) {
+    .facilityBody {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width >= 769px) and (width <= 992px) {
+    .facilityBody {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (width >= 993px) and (width <= 1200px) {
+    .facilityBody {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
